@@ -11,9 +11,9 @@ parameter COUNT = 26'h3FFFFFF;
 
 // registers
 always @(posedge clk) begin
-	counter <=  counterNext;
-	dataOut <=  dataOutNext;
-	flag <=  flagNext;
+	counter <= counterNext;
+	dataOut <= dataOutNext;
+	flag <= flagNext;
 end
 
 always @(*) begin
