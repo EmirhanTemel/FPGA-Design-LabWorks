@@ -10,8 +10,8 @@ parameter COUNT = 26'h3FFFFFF;
 
 
 always @(posedge clk) begin
-	counter <=#1 counterNext;
-	dataOut <=#1 dataOutNext;
+	counter <= #1 counterNext;
+	dataOut <= #1 dataOutNext;
 end
 
 always @(*) begin
